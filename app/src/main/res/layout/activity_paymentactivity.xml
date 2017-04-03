@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ecomerce.thomas.ecommerce_app.activities.Paymentactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="42dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/acheter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payer"
+            android:layout_marginTop="100dp"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
